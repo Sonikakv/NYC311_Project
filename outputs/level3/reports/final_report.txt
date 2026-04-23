@@ -1,0 +1,29 @@
+===== MODEL PERFORMANCE =====
+                     Model  Accuracy  Precision    Recall        F1       AUC
+0      Logistic Regression   0.77665   0.939676  0.747697  0.832766  0.892317
+1            Decision Tree   0.81040   0.940046  0.795832  0.861948  0.909448
+2            Random Forest   0.84250   0.926829  0.855798  0.889899  0.917275
+3              Naive Bayes   0.67055   0.886835  0.638521  0.742466  0.736975
+4        Gradient Boosting   0.79615   0.964870  0.753345  0.846087  0.914481
+5      Tuned Random Forest   0.81900   0.955336  0.793748  0.867078  0.921786
+6  Tuned Gradient Boosting   0.81710   0.958473  0.788235  0.865058  0.921783
+
+===== INSIGHTS =====
+- Peak hours reduce resolution efficiency
+- Time and location are key factors
+- Some boroughs show slower resolution
+
+===== IMPROVEMENTS APPLIED =====
+- SMOTE for class balancing
+- Hyperparameter tuning (GridSearch)
+- Cross-validation for robustness
+- ROC-AUC evaluation
+
+===== RECOMMENDATIONS =====
+- Increase staffing during peak hours
+- Prioritize slow complaint categories
+- Use ML model for early delay prediction
+
+===== LIMITATIONS =====
+- No real-time data
+- Limited feature set
