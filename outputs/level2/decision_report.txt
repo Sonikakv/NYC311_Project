@@ -1,0 +1,41 @@
+Overall Resolution Rate (within 72 hrs): 0.75
+
+Worst Performing Boroughs:
+borough
+Unspecified    0.517460
+BROOKLYN       0.718523
+MANHATTAN      0.738741
+Name: resolved_in_72hrs, dtype: float64
+
+Best Performing Boroughs:
+borough
+BRONX            0.745003
+STATEN ISLAND    0.764303
+QUEENS           0.780796
+Name: resolved_in_72hrs, dtype: float64
+
+Slowest Complaint Types:
+complaint_type
+Indoor Sewage           0.114504
+UNSANITARY CONDITION    0.127912
+DOOR/WINDOW             0.131622
+OUTSIDE BUILDING        0.132075
+APPLIANCE               0.143296
+Name: resolved_in_72hrs, dtype: float64
+
+Worst Time Periods:
+hour
+12    0.666708
+10    0.673523
+11    0.675500
+13    0.680235
+15    0.691926
+Name: resolved_in_72hrs, dtype: float64
+
+Best Model: Gradient Boosting (F1=0.904)
+
+RECOMMENDATIONS:
+- Increase staffing during low-performance hours
+- Prioritize slow complaint types
+- Improve processes in underperforming boroughs
+- Deploy predictive model for early delay detection
